@@ -1,6 +1,109 @@
-#bio {
-    color: white;
+html, body {
+    margin: 0px;
+    height: 100%;
+    background-color: #222831;
+    
+}
+
+.container{
+    margin: 0px;
+    width: 100vw;
+    position: relative;
+
+}
+
+
+/* ----- NAVBAR ----- */
+#navbar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: -75px;
+    transition: top 0.5s;
+}
+
+
+/* ----- TITLE PAGE ----- */
+#title{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background: #393e46;
+    background-image: url(/content/minimal-leaves.jpg);
+    
+}
+
+#title-content{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(182, 180, 178);
+}
+
+/* ----- ABOUT ----- */
+hr {
+    background-color: rgb(160, 158, 158);
+    margin-right: 500px;
 }
 
 
 
+#about {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#headshot{
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#about-text {
+    margin-right: 150px;
+    margin-left: 0;
+       
+}
+
+@media only screen and (max-width: 992px) {
+    #about-text {
+        margin-right: 0px;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #about-text {
+        margin-right: 150px;
+        margin-left: 0;
+        text-align: justify;
+        
+    }
+}
+/* ----- PORTFOLIO ----- */
+#portfolio{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+}
+
+.card{
+
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}

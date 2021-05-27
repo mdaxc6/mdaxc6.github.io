@@ -7,91 +7,113 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Michael Absher's GitHub</title>
+    <title>Michael Absher</title>
   </head>
 
 
-  <body style="background-color: #222831;">
-    <div class="container" style="background-color: #393e46; align-content: center;">
-        <div class="row">
-            <div class="col-md-12" style="text-align: center; color: white; padding-bottom: 15px;">
-                <h1>Michael Absher</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-lg-4" style="margin-bottom: 100px;">
-                <img src="content/headshot.jpg" class="img-fluid" alt="Responsive image">
-                <nav class="nav">
-                    <a class="nav-link active" href="https://github.com/mdaxc6">GitHub</a>
-                    <a class="nav-link" href="https://www.linkedin.com/in/michael-absher/">LinkedIn</a>
-                </nav>
-            </div>
-            <div class="col-md-8" style="color: white;">
-                <p id="bio">
-                    I am an aspiring Data Analyst earning their certificate in Data Visualization from Washington University in Saint Louis Missouri.
-                    I have experience with multiple programming languages such as Python and JavaScript. 
-                    I can utilize these languages to effectively pull meaningful information from sets of data, both visually and empirically. 
-                    I quickly learn new information and apply it in what I do. I am earning my certificate while working full time as a Project Manager for my family’s painting company. 
-                    In my free time I find new ways to challenge myself like learning new programing languages, libraries, or building simple synthesizers.  
-                    I am inspired to create simple solutions to complex problems.
-                </p>
-                <br/>
-            </div>
-        </div>
- 
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="card text-white bg-dark mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Granular Image Sequencer
-                    <small class="text-muted">using Python</small>
-                  </h5>
-                  <p class="card-text">Python script that compiles images randomly using grains. Similar to a granular synthesizer.</p>
-                  <a href="https://github.com/mdaxc6/Granular-Image-Sequencer" class="btn btn-secondary">GitHub Project</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="card text-white bg-dark mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Past Employee Research
-                    <small class="text-muted">using Python and SQL</small>
-                  </h5>
-                  <p class="card-text">Research project using Python and SQL to analyze information about past employees.</p>
-                  <a href="https://github.com/mdaxc6/sql-challenge" class="btn btn-secondary">GitHub Project</a>
-                </div>
-              </div>
+  <body>
+    <div class="container-fluid">
+
+      <!-- NAVBAR -->
+      <div class="row" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12">
+          <div class="container-fluid">
+            <!-- Brand/Logo -->
+            <a class="navbar-brand" href="#title">Michael Absher</a>
+            <!-- Collapse Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card text-white bg-dark mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Planning the Perfect Vacation
-                    <small class="text-muted">using Python</small>
-                  </h5>
-                  <p class="card-text">Analysis utilizing OpenWeather and Google Maps APIs to plan ideal vacation spots.</p>
-                  <a href="https://github.com/mdaxc6/python-api-challenge" class="btn btn-secondary">GitHub Project</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="card text-white bg-dark mb-3">
-                <div class="card-body">
-                  <h5 class="card-title">Stocks Analysis
-                    <small class="text-muted">using VBA</small>
-                  </h5>
-                  <p class="card-text">Script that calculates yearly change and total stock volume from a list of daily stock prices.</p>
-                  <a href="https://github.com/mdaxc6/vba-challenge" class="btn btn-secondary">GitHub Project</a>
-                </div>
-              </div>
-            </div>
-          </div>
+        </nav>
+      </div>
 
+      <!-- TITLE/LANDING PAGE -->
+      <div class="row align-items-center" id="title">
+        <div class="col-sm-12" id="title-content">
+          <h1>MICHAEL ABSHER</h1>
+          <p style="color: rgb(160, 158, 158);">Data Analyst, Developer</p>
+        </div>
+      </div>
 
+      <!-- About Me -->
+      <div class="row align-items-center" id="about">
+        <div class="col-md-12 col-lg-4" >
+          <img id="headshot" class="img-fluid" src="/content/headshot.jpg" alt="headshot">
+        </div>
+        <div class="col-md-12 col-lg-8" id="about-content">
+          <h2 style="color: rgb(160, 158, 158);">ABOUT ME</h2>
+          <hr>
+          <p id="about-text" style="color: rgb(160, 158, 158) ;">I am a driven Data Analyst with experience in multiple programming languages such as Python and JavaScript from Washington University Saint Louis’s data visualization boot camp. I am comfortable using a variety of technologies such as Pandas, MatplotLib, D3.js, Plotly.js, as well as HTML and CSS.  I can utilize these languages and technologies to effectively pull meaningful information from data, both visually and empirically. I earned my boot camp certificate while working full time as a Project Manager for my family’s business. As a Project Manager I utilize my attention to detail and ability to communicate effectively on a daily basis.I recently completed a project with a team of three, where we used Python and data from eia.gov, noaa.gov, and census.gov to determine the effect of weather on natural gas usage in the US. I am passionate about creating solutions to complex problems, and my analytical thinking combined with my ability to learn and adapt quickly make me a great addition to any team. </p>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div class="row" id="portfolio">
         
-    </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+
+    </div>
+    <script src="/content/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>
