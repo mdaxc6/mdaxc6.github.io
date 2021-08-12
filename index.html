@@ -28,10 +28,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About Me</a>
+                  <a class="nav-link" href="#about-link">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="#portfolio">Projects</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
@@ -49,7 +49,7 @@
           <p style="color: rgb(160, 158, 158);">Data Analyst, Developer</p>
         </div>
       </div>
-
+      <div id="about-link"></div>
       <!-- About Me -->
       <div class="row align-items-center" id="about">
         <div class="col-md-12 col-lg-4" >
@@ -63,52 +63,55 @@
       </div>
 
       <!-- Portfolio -->
+      <div class="row" id="portfolio_title">
+        <h2 style="color: rgb(160, 158, 158);">PROJECTS</h2>
+      </div>
       <div class="row" id="portfolio">
-        
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card-group">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-white bg-dark mb-3">
+              <img src="/content/camera.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sentiment Analysis</h5>
+                <p class="card-text">Utilizing machine learning trained on 50,000 IMDb reviews, predict the sentiment of user submitted movie reviews.</p>
+                <a href="https://movie-review-categorizer.herokuapp.com/" class="btn btn-secondary">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-white bg-dark mb-3">
+              <img src="/content/coaster.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Amusement Park Accidents</h5>
+                <p class="card-text">A full stack interactive webpage that visualizes amusement park accidents across the United States. <br></p>
+                <a href="https://park-accidents-api.herokuapp.com/" class="btn btn-secondary">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-white bg-dark mb-3">
+              <img src="/content/vacation.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vacation Planning</h5>
+                <p class="card-text">Using publically available APIs to analyze weather across 500 random cities and and finding an ideal vacation destination.</p>
+                <a href="https://github.com/mdaxc6/python-api-challenge" class="btn btn-secondary">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card text-white bg-dark mb-3">
+              <img src="/content/graph.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Interactive Graph using D3</h5>
+                <p class="card-text">An interactive visual based on 2014 ACS 1-year estimates from the US Census Bureau.</p>
+                <a href="https://github.com/mdaxc6/d3-custom-graph" class="btn btn-secondary">View Project</a>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-
       </div>
       
 

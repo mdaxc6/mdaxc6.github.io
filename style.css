@@ -21,6 +21,7 @@ html, body {
     position: fixed;
     top: -75px;
     transition: top 0.5s;
+    z-index: 1;
 }
 
 
@@ -54,8 +55,8 @@ hr {
     width: 100vw;
     display: flex;
     align-items: center;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 250px;
+    margin-bottom: 250px;
 }
 
 #headshot{
@@ -93,6 +94,13 @@ hr {
     }
 }
 /* ----- PORTFOLIO ----- */
+#portfolio_title>h2{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 #portfolio{
     width: 100vw;
     display: flex;
